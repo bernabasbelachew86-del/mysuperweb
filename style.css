@@ -1,0 +1,257 @@
+#title {
+  color: green;
+}
+#sub-title {
+  color: rgb(199, 199, 22);
+}
+#title1 {
+  color: red;
+}
+#title2 {
+  color: blue;
+}
+#title3 {
+  color: green;
+}
+#title3 span {
+  color: #ff0000;
+}
+#random-lorem {
+  color: rgb(7, 243, 7);
+  font-size: 20px;
+}
+.nameabb span {
+  color: rgb(243, 7, 7);
+  font-size: 20px;
+  font-weight: bold;
+}
+#title0 span {
+  color: brown;
+}
+#tt {
+  color: blueviolet;
+}
+#t1 {
+  color: deepskyblue;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
+}
+.video-list {
+  margin-left: 10px;
+  list-style-type: circle;
+}
+.btn {
+  background-color: red;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.8s ease;
+  border-radius: 0.5rem;
+  border: 1px solid #b7121236;
+  margin-left: 80px;
+  color: rgb(235, 243, 7);
+  background-clip: padding-box;
+}
+.btn:hover {
+  background-color: #18fc03;
+  color: #042dfa;
+  box-shadow: 0 2px 10px rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.btn:active {
+  opacity: 0.3;
+}
+.home-icon {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  fill: #18fc03;
+}
+.account {
+  position: absolute;
+  top: 130px;
+  left: 9px;
+  width: 35px;
+  fill: rgb(212, 243, 7);
+}
+.sidebar {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40px;
+}
+.content {
+  margin-left: 80px;
+  padding-top: 50px;
+  position: relative;
+  align-items: flex-start;
+  overflow-x: hidden; /* Disables horizontal scrollbar */
+  max-width: 100%;
+}
+
+.content > * {
+  flex-shrink: 0;
+}
+.copyright {
+  color: brown;
+}
+.btnm {
+  background-color: rgb(5, 255, 5);
+  margin: 10px;
+  padding: 10px;
+  color: #0040ff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.8s ease;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(247, 0, 0, 0.349);
+  border: 1px solid #06050536;
+  background-clip: padding-box;
+  cursor: pointer;
+}
+.btnm:hover {
+  background-color: rgb(7, 7, 243);
+  color: white;
+  box-shadow: 0 2px 10px rgb(0, 0, 0);
+}
+.account:hover {
+  fill: rgb(16, 107, 198);
+  border-radius: 50px;
+}
+.account:active {
+  background-color: rgb(7, 192, 243);
+  color: black;
+}
+.quote {
+  font-style: italic;
+  color: rgb(243, 11, 7);
+  font-size: 20px;
+  margin-left: 40px;
+}
+.quote-author {
+  font-weight: bold;
+  color: rgb(1, 111, 1);
+}
+.app {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar {
+  background-color: rgb(10, 10, 10);
+  padding: 10px;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0rem 0px;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  transition: all 0.8s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  unicode-bidi: isolate;
+  box-sizing: border-box;
+  border: 1px solid #06050536;
+  border-radius: 100px 100px 100px 100px;
+  background-clip: padding-box;
+}
+.navbar:hover {
+  background: rgba(240, 12, 12, 0.9);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 5px 0px 0px 0px;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 5px 0px 0px 0px;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1616ae;
+  text-decoration: none;
+  gap: 8px;
+  fill: #18fc03;
+  transition: all 0.3s ease;
+  border-radius: 100px;
+}
+.body {
+  font-family: Inter, sans-serif;
+  color: var(--dark);
+  background: var(--light);
+  line-height: 1.6;
+}
+.Logo-text-highlight {
+  color: #18fc03;
+}
+.home-icon:hover {
+  fill: #ff0000;
+  border-radius: 50px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  color: #024c5e;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.8s ease;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(247, 0, 0, 0.349);
+  border: 1px solid #06050536;
+  background-color: #ffffff00;
+  background-clip: padding-box;
+}
+.nav-link:hover {
+  background-color: #18fc03;
+  color: #fff;
+  box-shadow: 0 2px 10px rgb(0, 0, 0);
+}
+#uppersix {
+  background-color: #d1b57b;
+  color: #0040ff;
+  border: solid #0040ff;
+}
+#gradesix {
+  border: 5px solid #0040ff;
+  border-radius: 10px;
+  margin-left: 0px;
+  font-weight: Bold;
+}
+.Rank {
+  color: #ff0000;
+}
+.Gradeintro {
+  color: cyan;
+  font-family: monospace;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
