@@ -1,0 +1,715 @@
+#title {
+  color: green;
+}
+#sub-title {
+  color: rgb(199, 199, 22);
+}
+#title1 {
+  color: red;
+}
+#title2 {
+  color: blue;
+}
+#title3 {
+  color: green;
+}
+#title3 span {
+  color: #ff0000;
+}
+#random-lorem {
+  color: rgb(7, 243, 7);
+  font-size: 20px;
+}
+.nameabb span {
+  color: rgb(243, 7, 7);
+  font-size: 20px;
+  font-weight: bold;
+}
+#title0 span {
+  color: brown;
+}
+#tt {
+  color: blueviolet;
+}
+#t1 {
+  color: deepskyblue;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
+}
+.video-list {
+  margin-left: 10px;
+  list-style-type: circle;
+}
+.i1 {
+  margin-left: 100px;
+  align-items: stretch;
+}
+.btn {
+  background-color: red;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+  border: 1px solid #b7121236;
+  margin-left: 80px;
+  color: rgb(235, 243, 7);
+  background-clip: padding-box;
+}
+.btn:hover {
+  background-color: #18fc03;
+  color: #042dfa;
+  box-shadow: 0 2px 10px rgb(0, 0, 0);
+  opacity: 0.5;
+}
+.btn:active {
+  opacity: 0.3;
+}
+.home-icon {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  fill: #18fc03;
+}
+.account {
+  position: absolute;
+  top: 130px;
+  left: 9px;
+  width: 35px;
+  fill: rgb(212, 243, 7);
+}
+.sidebar {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40px;
+}
+.content {
+  margin-left: 80px;
+  padding-top: 50px;
+  position: relative;
+  align-items: flex-start;
+  overflow-x: hidden; /* Disables horizontal scrollbar */
+  max-width: 100%;
+}
+
+.content > * {
+  flex-shrink: 0;
+}
+.copyright {
+  color: brown;
+}
+.btnm {
+  background-color: rgb(5, 255, 5);
+  margin: 10px;
+  padding: 10px;
+  color: #0040ff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(247, 0, 0, 0.349);
+  border: 1px solid #06050536;
+  background-clip: padding-box;
+  cursor: pointer;
+}
+.btnm:hover {
+  background-color: rgb(7, 7, 243);
+  color: white;
+  box-shadow: 0 2px 10px rgb(0, 0, 0);
+}
+.account:hover {
+  fill: rgb(16, 107, 198);
+  border-radius: 50px;
+}
+.account:active {
+  background-color: rgb(7, 192, 243);
+  color: black;
+}
+.quote {
+  font-style: italic;
+  color: rgb(243, 11, 7);
+  font-size: 20px;
+  margin-left: 40px;
+}
+.quote-author {
+  font-weight: bold;
+  color: rgb(1, 111, 1);
+}
+.app {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar {
+  background-color: rgb(10, 10, 10);
+  padding: 10px;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0rem 0px;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  transition: all 0.8s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: block;
+  unicode-bidi: isolate;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 0px;
+  border: 1px solid #06050536;
+  border-radius: 100px 100px 100px 100px;
+  background-clip: padding-box;
+}
+.navbar:hover {
+  background: rgba(240, 12, 12, 0.9);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 5px 0px 0px 0px;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: clamp(0px, 3vw, 0px);
+  justify-content: space-between;
+  align-items: center;
+}
+.Logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 5px 0px 0px 0px;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1616ae;
+  text-decoration: none;
+  gap: 8px;
+  fill: #18fc03;
+  transition: all 0.3s ease;
+  border-radius: 100px;
+}
+.body {
+  font-family: Inter, sans-serif;
+  color: var(--dark);
+  background: var(--light);
+  line-height: 1.6;
+}
+.Logo-text-highlight {
+  color: #18fc03;
+}
+.home-icon:hover {
+  fill: #ff0000;
+  border-radius: 50px;
+}
+.nav-link {
+  display: flex;
+  flex: 0 1 auto;
+
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  color: #024c5e;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(247, 0, 0, 0.349);
+  border: 1px solid #06050536;
+  background-color: #ffffff00;
+  background-clip: padding-box;
+}
+.nav-link:hover {
+  background-color: #18fc03;
+  color: #fff;
+  box-shadow: 0 2px 10px rgb(0, 0, 0);
+}
+.tgu {
+  background-color: #d1b57b;
+  color: #0040ff;
+  border: solid #0040ff;
+}
+.tgrade {
+  border: 5px solid #0040ff;
+  border-radius: 10px;
+  margin-left: 0px;
+  font-weight: Bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Rank {
+  color: #ff0000;
+}
+.Gradeintro {
+  color: cyan;
+  font-family: monospace;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.search {
+  --padding: 14px;
+
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: var(--padding);
+  border-radius: 28px;
+  background: #f6f6f6;
+  width: 300px;
+  transition: background box-shadow 0.25s;
+}
+.search:hover,
+.search:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
+  transition: box-shadow 0.7s;
+}
+.search:focus-within {
+  background: #f6f6f6f6;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.452);
+  transition: box-shadow 0.3s;
+}
+body > footer {
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px max(4%, 15px);
+  background: #c3c3c3;
+  border-radius: 10px;
+  text-align: center;
+  border: #1a1a2e;
+}
+body > footer:hover {
+  box-shadow: 0 2px 10px rgba(3, 3, 3, 0.95);
+  transition: all 0.3s ease;
+}
+body > footer .copyright {
+  overflow-wrap: anywhere;
+}
+
+#contact-us-part {
+  width: min(100%, 800px);
+  margin: 0 auto;
+}
+
+.contact-us {
+  line-height: 1.8;
+}
+
+.social-media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin: 25px auto;
+}
+
+.social-media svg {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+}
+.search-input {
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: lawngreen;
+  margin-left: var(--padding);
+  outline: none;
+  border: none;
+  background: transparent;
+  flex: 1;
+}
+.search-input::placeholder,
+.search-icon {
+  color: rgba(0, 0, 0, 0.5);
+}
+.facebook {
+  border: 2px solid rgba(0, 0, 0, 0.489);
+  border-radius: 100px;
+}
+.google {
+  border: 2px solid rgba(0, 0, 0, 0.489);
+  border-radius: 100px;
+}
+.google:hover,
+.google:active {
+  background-color: #f6f6f6;
+  transition: 0.5s;
+}
+.github {
+  border: 2px solid rgba(0, 0, 0, 0.489);
+  border-radius: 100px;
+}
+.github:hover,
+.github:active {
+  background-color: #f6f6f6;
+  transition: 0.5s;
+}
+.twitter {
+  border: 2px solid rgba(0, 0, 0, 0.489);
+  border-radius: 100px;
+}
+.twitter:hover,
+.twitter:active {
+  background-color: #f6f6f6;
+  transition: 0.5s;
+}
+.tiktok {
+  border: 2px solid rgba(0, 0, 0, 0.489);
+  border-radius: 100px;
+}
+.tiktok:hover,
+.tiktok:active {
+  background-color: #f6f6f6;
+  transition: 0.5s;
+}
+.facebook:hover,
+.facebook:active {
+  background-color: #0040ff;
+  transition: 0.5s;
+}
+.social-media {
+  margin: 10px;
+  align-items: center;
+  gap: clamp(0px, 3vw, 40px);
+}
+.social-media a {
+  display: inline-flex;
+}
+.youtube {
+  border: 2px solid rgba(0, 0, 0, 0.489);
+  border-radius: 100px;
+}
+.youtube:hover,
+.youtube:active {
+  background-color: red;
+  transition: 0.5s;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  border: 2px solid rgba(7, 7, 7, 0.9);
+}
+.reddit {
+  border: 2px solid rgba(0, 0, 0, 0.489);
+  border-radius: 100px;
+}
+.reddit:hover,
+.reddit:active {
+  background-color: orangered;
+  border-radius: 100px;
+  transition: 0.5s;
+}
+.insta {
+  border: 2px solid rgba(0, 0, 0, 0.489);
+  border-radius: 100px;
+}
+.insta:hover,
+.insta:active {
+  background-color: rgb(247, 82, 247);
+  border-radius: 100px;
+  transition: 0.5s;
+}
+.twich {
+  border: 2px solid rgba(0, 0, 0, 0.489);
+  border-radius: 100px;
+}
+.twich:hover,
+.twich:active {
+  background-color: rgb(159, 3, 159);
+  border-radius: 100px;
+  transition: 0.5s;
+}
+.telegram {
+  border: 2px solid rgba(0, 0, 0, 0.489);
+  border-radius: 100px;
+}
+.telegram:hover,
+.telegram:active {
+  background-color: rgb(80, 157, 250);
+  border-radius: 100px;
+  transition: 0.5s;
+}
+/* =====================================================
+   RESPONSIVE SIZE FIX
+   This does NOT change the original design.
+   ===================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Images, videos and iframes cannot be wider than screen */
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+/* ================= TABLETS ================= */
+
+@media screen and (max-width: 1000px) {
+  .content {
+    width: 94%;
+  }
+
+  .navbar .container {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .nav-link {
+    max-width: 100%;
+  }
+
+  .search {
+    max-width: 100%;
+  }
+}
+
+/* ================= PHONES ================= */
+
+@media screen and (max-width: 600px) {
+  .content {
+    width: 94%;
+  }
+
+  /* Navigation stays the same style,
+       but is allowed to wrap */
+  .navbar .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-link {
+    max-width: 100%;
+  }
+
+  /* Search box fits phone width */
+  .search {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Long tables scroll horizontally
+       instead of stretching the whole page */
+  .tgrade {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Images stay inside the screen */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Videos stay inside the screen */
+  video,
+  iframe {
+    max-width: 100%;
+  }
+
+  /* Long code doesn't stretch the page */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  .social-media {
+    gap: 14px;
+  }
+}
+
+/* ================= SMALL PHONES ================= */
+
+@media screen and (max-width: 400px) {
+  .content {
+    width: 95%;
+  }
+
+  .tgrade {
+    overflow-x: auto;
+  }
+}
+/* =====================================================
+   MOBILE HAMBURGER MENU
+   Only affects screens 700px and smaller.
+   Desktop design remains unchanged.
+   ===================================================== */
+
+.menu-toggle {
+  display: none;
+}
+
+/* ---------- Tablet / Mobile ---------- */
+
+@media screen and (max-width: 700px) {
+  .navbar .container {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  /* Hamburger button */
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+    padding: 6px 12px;
+
+    font-size: 28px;
+    line-height: 1;
+
+    color: #024c5e;
+    background: transparent;
+
+    border: 1px solid #06050536;
+    border-radius: 0.5rem;
+
+    cursor: pointer;
+
+    transition: all 0.8s ease;
+  }
+
+  .menu-toggle:hover {
+    background-color: #18fc03;
+    color: #fff;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+  }
+
+  /* Hide navigation links initially */
+  .navbar .nav-link {
+    display: none;
+  }
+
+  /* When menu is open */
+  .navbar.menu-open .nav-link {
+    display: flex;
+
+    width: 100%;
+    max-width: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 5px 0;
+    padding: 10px;
+
+    text-align: center;
+  }
+
+  /* Keep your logo and icons at the top */
+  .navbar .logo {
+    flex-shrink: 0;
+  }
+
+  .navbar .Logo-text {
+    flex-shrink: 0;
+  }
+
+  .navbar .home-icon,
+  .navbar .account {
+    position: static;
+  }
+
+  /* Prevent the content from being wider than the phone */
+  .content {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    overflow-x: hidden;
+  }
+
+  /* Search box */
+  .search {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Videos */
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* YouTube iframes */
+  iframe {
+    max-width: 100%;
+  }
+
+  /* Tables can scroll horizontally */
+  .tgrade {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Long code */
+  pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
+/* ---------- Small phones ---------- */
+
+@media screen and (max-width: 400px) {
+  .navbar .Logo-text {
+    font-size: 1.2rem;
+  }
+
+  .menu-toggle {
+    font-size: 25px;
+    padding: 5px 10px;
+  }
+
+  .navbar .home-icon {
+    width: 27px;
+    height: 27px;
+  }
+
+  .navbar .account {
+    width: 30px;
+  }
+
+  .content {
+    width: 95%;
+  }
+}
