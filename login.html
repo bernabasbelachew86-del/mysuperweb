@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <h1>Sign Up</h1>
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend>Personal information</legend>
+        <label for="name">Name(Required):</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="e.g/ john,Marta,..."
+          required
+          size="20"
+        /><br /><br />
+        <label for="age">Age(Optional):</label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          size="2"
+          min="3"
+          max="100"
+        /><br /><br />
+        <label
+          >Email(Required):
+          <input
+            type="email"
+            id="username"
+            name="...@example.com"
+            required
+            minlength="12"
+            maxlength="64"
+            placeholder="example@example.com"
+            size="20"
+          /><br /><br />
+        </label>
+        <label
+          >Password(Required):
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            size="5"
+            minlength="6"
+          /><br /><br />
+        </label>
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend>Terms and regulations(Required):</legend>
+        <label>
+          <input
+            type="checkbox"
+            placeholder="I have agreed to the terms and regulation."
+            required
+          />I have agreed to the terms and regulation.<br /><br />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Did you like my Website?</legend>
+        <input type="radio" id="yes" name="Site-Opinion" value="yes" />
+        <label for="yes">Yes! I love it!</label><br />
+        <input type="radio" id="inbtn" name="Site-Opinion" value="btn" />
+        <label for="inbtn">Not Bad! I am in between.</label><br />
+        <input type="radio" id="no" name="Site-Opinion" value="no" />
+        <label for="no">No! It needs more.</label><br />
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend>Where do you first hear about this WebSite?</legend>
+        <input type="checkbox" id="ads" value="ads" name="Choice" />
+        <label for="ads">Social Media Ads</label><br />
+        <input
+          type="checkbox"
+          id="recommendation"
+          value="recommendation"
+          name="Choice"
+        />
+        <label for="recommendation">Personal Recommendation</label><br />
+        <input
+          checked
+          type="checkbox"
+          id="search"
+          value="search"
+          name="choice"
+        />
+        <label for="search">I searched for it.</label><br />
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend>Ratings</legend>
+        <label for="service">How was the service?</label>
+        <select name="service" id="service">
+          <option value="poor">Poor</option>
+          <option value="satisfactory">Satisfactory</option>
+          <option value="good">Good</option>
+          <option value="very-good">Very Good</option>
+          <option selected value="excellent">Excellent</option>
+        </select>
+      </fieldset>
+      <br /><br />
+      <label for="comments">Other Comments?</label><br />
+      <textarea id="comments" name="comments" cols="30" rows="10"></textarea
+      ><br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
